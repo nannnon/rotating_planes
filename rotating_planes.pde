@@ -41,4 +41,6 @@ void draw()
     int i = int(random(planes.size()));
     planes.get(i).StartRotating();
   }
+  
+  saveFrame("frames/######.png");
 }
